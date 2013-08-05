@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/hello_world"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <!-- <com.indianic.dropdownspinner.DropdownSpinner -->
+    <!-- android:id="@+id/my_spinner1" -->
+    <!-- android:layout_width="60dp" -->
+    <!-- android:layout_height="60dp" -->
+    <!-- android:layout_centerInParent="true" -->
+    <!-- android:background="@drawable/standard_menu_button_bg" /> -->
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center" >
+
+        <!-- <com.indianic.customspinner.GmailSpinner -->
+        <!-- android:id="@+id/gmail_spinner" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center" -->
+        <!-- android:layout_marginRight="10dp" -->
+        <!-- android:background="@drawable/tie_vertical" -->
+        <!-- android:spinnerMode="dropdown" -->
+        <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+        <!-- <com.indianic.customspinner.MySpinner -->
+        <!-- android:id="@+id/myspinner1" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/tie_vertical" /> -->
+
+
+        <!-- <com.indianic.customspinner.SpinnerCustomDialog -->
+        <!-- android:id="@+id/gmail_spinner" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center" -->
+        <!-- android:layout_marginRight="10dp" -->
+        <!-- android:background="@drawable/tie_vertical" -->
+        <!-- android:spinnerMode="dropdown" -->
+        <!-- android:src="@drawable/ic_launcher" /> -->
+
+        <com.anky.dropdownspinner.DropdownSpinner
+            android:id="@+id/my_spinner1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/standard_menu_button_bg"
+            android:text="" />
+    </LinearLayout>
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/ll_spinner" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@+id/ll" -->
+<!--         android:orientation="vertical" -->
+<!--         android:layout_alignParentRight="true"> -->
+        
+        
+<!--     </LinearLayout> -->
+
+    <com.anky.dropdownspinner.DropdownSpinner
+        android:id="@+id/my_spinner2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/standard_menu_button_bg" />
+
+    <com.anky.dropdownspinner.DropdownSpinner
+        android:id="@+id/my_spinner3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/standard_menu_button_bg" />
+
+    <com.anky.dropdownspinner.DropdownSpinner
+        android:id="@+id/my_spinner4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/standard_menu_button_bg"
+        android:gravity="right" />
+
+    <com.anky.dropdownspinner.DropdownSpinner
+        android:id="@+id/my_spinner5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_menu_moreoverflow" />
+
+</RelativeLayout>

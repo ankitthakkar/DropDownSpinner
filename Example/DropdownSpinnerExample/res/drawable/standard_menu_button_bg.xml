@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="false" android:state_pressed="true"><shape>
+
+            <!-- <solid android:color="@color/color14_secondary_button" /> -->
+            <gradient android:angle="270" android:endColor="#C9C7C7" android:centerColor="#D9D6D6"  android:startColor="#FBFBFB" />
+
+<!--             <stroke android:width="2dp" android:color="#96D745" /> -->
+
+            
+        </shape></item>
+    <item android:state_focused="true" android:state_pressed="true"><shape>
+<!--             <gradient android:angle="270" android:endColor="#E0DBDB" android:centerColor="#EDEDED"  android:startColor="#FBFBFB" /> -->
+            <gradient android:angle="270" android:endColor="#C9C7C7" android:centerColor="#D9D6D6"  android:startColor="#FBFBFB" />
+
+<!--             <stroke android:width="2dp" android:color="#96D745" /> -->
+
+            
+        </shape></item>
+    <item android:state_focused="false" android:state_pressed="false"><shape>
+            <gradient android:angle="270" android:centerColor="#EAEAEA" android:endColor="#DBDBDB" android:startColor="#FBFBFB" />
+        </shape></item>
+    <item android:state_focused="true" android:state_pressed="false"><shape>
+            <gradient android:angle="270" android:centerColor="#EAEAEA" android:endColor="#DBDBDB" android:startColor="#FBFBFB" />
+        </shape></item>
+
+</selector>
